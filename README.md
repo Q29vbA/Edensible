@@ -1,33 +1,33 @@
 # Edensible
-Cute small ansible mimic,
-Part of hafifa.
+Cute small ansible mimic, <br />
+Part of hafifa. <br />
 Named after hofefet Eden
 
 ## Overview
 
-main.yml could be YAML or JSON format.
-As with YAML, comment using '#'.
+main.yml could be YAML or JSON format. <br />
+As with YAML, comment using '#'. <br />
 
-File tree is as below:
-EDENSIBLE_ROOT_FOLDER
-└─── main.yml
+File tree is as below: <br />
+EDENSIBLE_ROOT_FOLDER <br />
+└─── main.yml <br />
 └─── hosts
 
 ## Hosts file format
-[host_group_name]
-IP/FQDN1
-IP/FQDN2
-...
-[another_host_group_name]
-IP/FQDN3
-IP/FQDN4
-...
-[host_group_name:vars]
-edensible_user={username-to-login-with}
-edensible_password={password-of-username}
-[another_host_group_name:vars]
-edensible_user={username-to-login-with}
-edensible_password={password-of-username}
+[host_group_name] <br />
+IP/FQDN1 <br />
+IP/FQDN2 <br />
+... <br />
+[another_host_group_name] <br />
+IP/FQDN3 <br />
+IP/FQDN4 <br />
+... <br />
+[host_group_name:vars] <br />
+edensible_user={username-to-login-with} <br />
+edensible_password={password-of-username} <br />
+[another_host_group_name:vars] <br />
+edensible_user={username-to-login-with} <br />
+edensible_password={password-of-username} <br />
 
 
 ## Modules
