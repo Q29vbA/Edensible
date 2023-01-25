@@ -33,30 +33,30 @@ edensible_password={password-of-username} <br />
 ## Modules
 
 ### file
-Parameters:
-	state: state of file, options:
-	  - touch (make sure exists)
-	  - directory (make sure directory in such path exists)
-	  - absent (delete)
+Parameters: <br />
+	state: state of file, options: <br />
+	  - touch (make sure exists) <br />
+	  - directory (make sure directory in such path exists) <br />
+	  - absent (delete) <br />
 	path: path of the object to act on
 
 ### shell
-Parameters:
+Parameters: <br />
 	cmd: command to execute
 
 ### service
-Parameters:
-	state: state of service, options:
-	  - started
-	  - stopped
-	  - enabled
-	  - disabled
+Parameters: <br />
+	state: state of service, options: <br />
+	  - started <br />
+	  - stopped <br />
+	  - enabled <br />
+	  - disabled <br />
 	name: service name to act on
 
 ### yum
-Parameters:
-	action: what action to apply on the package name, options:
-	  - install
-	  - remove
+Parameters: <br />
+	action: what action to apply on the package name, options: <br />
+	  - install <br />
+	  - remove <br />
 	name: package name
 
