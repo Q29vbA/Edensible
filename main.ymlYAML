@@ -1,4 +1,5 @@
 ---
+# EXAMPLE PLAYBOOK
 - name: do stuff :)
   hosts: test
   tasks:
