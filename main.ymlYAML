@@ -1,0 +1,19 @@
+---
+- name: do stuff :)
+  hosts: test
+  tasks:
+  - name: file
+    file:
+      state: touch
+      path: /home/devops/hello.txt
+  - name: shell
+    shell:
+      cmd: "echo hi >> /home/devops/hello.txt"
+  - name: enable mongo
+    service:
+      name: "mongod"
+      state: "enabled"
+  - name: install nginx
+    yum:
+      name: "nginx"
+      action: "install"
